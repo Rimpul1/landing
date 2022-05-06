@@ -1,0 +1,248 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    h1{
+        font-size: 47px;
+        font-weight: 700;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 20px;
+    }
+    h2{
+        font-size: 34;
+        font-weight: 700;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 25px;
+    }
+    p{
+        font-size: 18;
+        font-weight: 600;
+        font-family: 'Raleway', sans-serif; 
+    }
+    ul{
+        list-style: none;
+    }
+    .container{
+        width: 950px;
+        margin: 0 auto;
+    }
+    .navbar{
+        border-bottom: 1px solid black;
+        align-items: center;
+    }
+    .nav_list{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 0;
+    }
+    a{
+        font-family: 'Raleway', sans-serif; 
+        font-size: 18px;
+        font-weight: 500;
+        color: #828282;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    a:hover{
+        color: black;
+    }
+    .header{
+        padding-bottom: 100px;
+    }
+    .header_cards{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    .header_title{
+        text-shadow: 1px 1px 4px  black;
+    }
+    .header_dicrip{
+        transform: rotate(270deg) translate(-3px);
+
+    }
+    .header_dicrip span{
+        font-weight: 700;
+        color: black;
+        content: "";
+    }
+    .about_me{
+        background-color: #F6F6F6;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .about{
+        text-align: center;
+        width: 404px;
+        margin: 0 auto;
+    }
+    .about_first{
+        padding-bottom: 25px;
+    }
+    .about_title{
+        padding-bottom: 35px;
+    }
+    .about_dicrip{
+        padding-bottom: 35px;
+    }
+    .skills{
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 100px;
+    }
+    .skills_disrip{
+        padding-top: 15px;
+        padding-bottom: 35px;
+    }
+    .skills_cards{
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 90px;
+        padding-bottom: 100px;
+    }
+    .portfolio{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-color: #F6F6F6;
+    }
+    .port_title{
+        padding-bottom: 45px;
+    }
+    .port_card{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 100px;
+    }
+    .port_card img{
+        width: 940px;
+        height: 510px;
+    }
+    .port_a{
+        padding-top: 50px;
+        color: black;
+        text-decoration: underline;
+    }
+    button{
+        font-family: 'Raleway', sans-serif; 
+        font-size: 18px;
+        font-weight: 700;
+        color: white;
+        background-color: black;
+        padding: 10px 30px;
+        border-radius: 35px;
+    }
+    footer{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .footer_title{
+        text-align: center;
+        margin: 0 auto;
+        width: 280px;
+        height: 190px;
+    }
+    .footer_text{
+        padding-bottom: 30px;
+        font-weight: 600;
+    }
+    .footer_card_buttons{
+        display: flex;
+        justify-content: center;
+        padding-top: 54px;
+        align-items: center;
+    }
+    .footer_card_icons {
+        color: #000000;
+        border-radius: 12px;
+        font-size: 55px;
+        padding: 22px;
+    }
+    .footer_special{
+        font-size: 30px;
+        color: #000000;
+        outline: black solid;
+        padding: 5px 8px 5px 8px;
+        border-radius: 5px;
+    }
+    .footer_desrip{
+        text-align: center;
+        width: 314px;
+        margin: 0 auto;
+        padding-top: 40px;
+        color: #828282;
+    }
+    @media screen and (max-width: 768px){
+        .container{
+            width: 618px;
+        }
+        .chell_img{
+            width: 100%;
+            height: 100%;
+        }
+        .port_card img {
+            width: 664px;
+            height: 389px
+        }
+    @media screen and (max-width: 425px){
+        .container{
+            width: 357px;
+        }
+        nav{
+            display: none;
+        }
+        .header_cards{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start
+        }
+        .header_dicrip{
+            display: none;
+        }
+        .about{
+            text-align: center;
+            width: 287px;
+            margin: 0 auto;
+        }
+        .about_first{
+            font-size: 34px;
+        }
+        .skills_title{
+            font-size: 34px;
+        }
+        .skills_cards{
+            display: flex;
+            padding-top: 90px;
+            flex-direction: column;
+        }
+        .skills_card{
+            padding-bottom: 80px;
+        }
+        .portfolio {
+            padding-bottom: 1px;
+        }
+        .port_card img{
+            width: 363px;
+            height: 222px;
+        }
+        .footer_card_icons{
+            padding: 13px;
+        }
+        button{
+            padding: 13px 30px;
+            justify-content: center;
+            box-sizing: border-box;
+        }
+        @media screen and (max-width: 375px){
+            .container{
+                width: 100%;
+                margin: 0 auto;
+            }
+    }
